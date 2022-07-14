@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title1" style="color: #ff2929 ;">The</h1>
+    <h1 class="title1" style="color: #52e245a0 ;">Time</h1>
+    <h1 class="title1" style="color: #eeff00ee ;">Is</h1>
+    <div id="time">
+        <div class="circle" style="--clr: #ff2929;">
+            <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70" id="ho"></circle>
+            </svg>
+            <div id="hours">00</div>
+        </div>
+        
+        <div class="circle" style="--clr: #52e245a0;">
+            <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70" id="mi"></circle>
+            </svg>
+            <div id="minutes">00</div>
+        </div>
+        <div class="circle" style="--clr: #eeff00ee;" >
+            <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70" id="se"></circle>
+            </svg>
+            <div id="seconds">00</div>
+        </div>
+    </div>
+    <div class="ap">
+        <div id="ampm">AM</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
